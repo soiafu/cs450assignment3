@@ -15,7 +15,7 @@ import io
 import base64
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\User\OneDrive\Documents\CS 450\assignment3\ProcessedTweets.csv').dropna()
+df = pd.read_csv('assets/ProcessedTweets.csv')
 df.to_csv("pt.csv")
 
 
